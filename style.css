@@ -1,0 +1,84 @@
+body {
+  background-image: url('assets/images/background.avif');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+.card {
+
+  background-color: rgba(123, 123, 123, 0.5);
+
+  height: 590px;
+  width: 384px;
+  border: none;
+  margin: auto;
+  margin-top: 150px;
+  padding: 40px 50px;
+  border-radius: 10px;
+
+
+}
+
+.profile-photo {
+  width: 88px;
+  margin: auto;
+  margin-right: 12em;
+  margin-left: 9em;
+  margin-top: 3em;
+  border-radius: 50%;
+  margin: 3em 12em 0 9em;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+  height: 6em;
+}
+
+.information {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.divider h3{
+ text-align: center;
+ margin: 30px;
+}
+
+.social-links a {
+  display: block;
+  text-decoration: none;
+  margin-top: 1em;
+  text-align: center;
+  background-color: #35392c8b;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #acb9a2cf;
+  transform: scale(1.05);
+}
+
+
+.attribution {
+  text-align: center;
+  padding-top: 10em;
+  margin-top: 2em;
+  font-size: 10px;
+  color:  rgb(163, 163, 163);
+
+}
+
+.attribution a {
+  color: rgb(163, 163, 163);
+  text-decoration: none;
+}
